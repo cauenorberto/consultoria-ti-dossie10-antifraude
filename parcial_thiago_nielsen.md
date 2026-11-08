@@ -26,13 +26,6 @@ Além disso, o armazenamento seguro é essencial para proteger a privacidade dos
 
 Meu objetivo é aprofundar meus conhecimentos em Engenharia de Dados, principalmente nas ferramentas utilizadas para processamento de informações em tempo real e armazenamento em nuvem.
 
-Nos próximos 12 meses, pretendo:
-
-- Aprender a utilizar o Apache Kafka.
-- Desenvolver conhecimentos sobre pipelines de dados.
-- Aprofundar meus estudos em bancos de dados e armazenamento seguro.
-- Conhecer melhor os conceitos de governança e segurança de dados.
-
 **Resultado esperado:** desenvolver conhecimentos práticos que permitam estruturar e organizar fluxos de dados com mais eficiência, ampliando minha preparação profissional para atuar na área de Engenharia de Dados.
 
 ### 5. Feedback dos colegas
