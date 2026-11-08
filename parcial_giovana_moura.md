@@ -4,4 +4,5 @@
 
 * **Plano de desenvolvimento (SMART):** Expandir competências em gestão de projetos ágeis e certificações de arquitetura em nuvem nos próximos 6 a 12 meses.
 
-* **Feedback:** Destacada pela excelente organização gerencial e pontualidade na entrega dos marcos do projeto, com recomendação de maior aprofundamento técnico nos códigos de infraestrutura.
+* **Feedback:** Destacada pela excelente organização gerencial e pontualidade na entrega dos projeto, com recomendação de maior aprofundamento técnico nos códigos.
+* Caue,thiago e luan
