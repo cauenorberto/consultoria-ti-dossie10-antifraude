@@ -9,17 +9,17 @@
 
 ## 1. Abertura
 
-* **Título do Projeto:** Escudo 60+: Camada de Proteção Comportamental e Assistida contra Engenharia Social
+* **Título do Projeto:** Escudo 60+: 
 
 * **Dossiê Escolhido:** 10 - Antifraude e golpes contra idosos
 
-* **Recorte Escolhido:** Foco estrito na prevenção de fraudes por engenharia social (falsas centrais de atendimento e transferências atípicas via Pix) direcionadas a idosos na faixa etária acima de 65 anos utilizando aplicativos bancários móveis.
+* **Recorte Escolhido:** Foco estrito na prevenção de fraudes por engenharia social (falsas centrais de atendimento e transferências atípicas via Pix) direcionadas a idosos na faixa etária acima de 65 anos utilizando aplicativos bancários.
 
 * **Integrantes:**
 
   * Cauê Norberto| GitHub: \[cauenorberto\] | Área: Ciência de Dados | RGM: \[48009661\]
 
-  * Luan Henrique | GitHub: \[\] | Área: Cibersegurança | RGM: \[47914564\]
+  * Luan Henrique | GitHub: \[luanhenrique-dev] | Área: Cibersegurança | RGM: \[47914564\]
 
   * Thiago Nielsen | GitHub: \[ThiagoNielsen2008\] | Área: Engenharia de Dados | RGM: \[47917041\]
 
@@ -27,7 +27,7 @@
 
 ## 2. Análise do Problema
 
-* **Quem é afetado, onde e quanto:** Segundo dados recentes da Unifesp e levantamentos de órgãos de proteção ao consumidor, as fraudes digitais contra pessoas idosas dispararam expressivamente no Brasil, com vítimas com idade média superior a 67 anos. Estatísticas da Febraban indicam que as tentativas de golpes atingem fortemente a população sênior, comprometendo aposentadorias e reservas de uma vida inteira.
+* **Quem é afetado, onde e quanto:** Segundo dados recentes da Unifesp e levantamentos de órgãos de proteção ao consumidor, as fraudes digitais contra pessoas idosas dispararam no Brasil, com vítimas com idade média superior a 67 anos. A Febraban indicam que as tentativas de golpes atingem fortemente a população sênior, comprometendo aposentadorias e reservas de uma vida inteira.
 
 * **Causas (com destaque tecnológico):** O principal vetor não é a quebra de criptografia dos bancos, mas sim a **engenharia social** (que responde por cerca de 40% das fraudes financeiras no país). Os criminosos manipulam psicologicamente o idoso — utilizando falsas centrais de atendimento, urgência inventada ou engenharia social por telefone/WhatsApp —, induzindo-o a realizar transações voluntárias ou a entregar senhas e códigos de segurança.
 
