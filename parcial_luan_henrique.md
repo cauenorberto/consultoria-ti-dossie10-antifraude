@@ -13,4 +13,5 @@ Privacidade: desenvolver medidas para proteger os dados dos idosos.
 
 3. Importância da Cibersegurança para o projeto
 A Cibersegurança é essencial para o Escudo 60+, pois ajuda a proteger os usuários contra golpes financeiros, vazamento de informações e invasões.
-Feedback dos colegas: Reconhecimento pela rigidez técnica na construção do controle ético, com sugestão de otimizar o tempo de resposta nas entregas. Ass:Cauê, Thiago e Giovana
+
+4.Feedback dos colegas: Reconhecimento pela rigidez técnica na construção do controle ético, com sugestão de otimizar o tempo de resposta nas entregas. Ass:Cauê, Thiago e Giovana
