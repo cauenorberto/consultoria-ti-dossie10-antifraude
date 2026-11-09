@@ -1,5 +1,16 @@
 LUAN HENRIQUE RIBEIRO DE ALBUQUERQUE (CYBERSEGURANÇA)
 
-Papel no projeto: Mapeamento de vetores de ataque de engenharia social, desenho da matriz de riscos e mitigação de malwares de acesso remoto (comprovado pelos commits de segurança e LGPD).
-Plano de desenvolvimento (SMART): Obter especialização prática em testes de intrusão móvel e segurança de APIs bancárias em um horizonte de 6 a 9 meses.
+1. Papel no projeto
+Minha responsabilidade no projeto Escudo 60+ é garantir a segurança das informações dos usuários, protegendo os dados bancários e pessoais dos idosos contra possíveis golpes, invasões e acessos não autorizados.
+O objetivo é criar medidas de proteção que ajudem a manter as informações seguras e evitar que criminosos tenham acesso aos dados dos usuários.
+
+2. Principais responsabilidades
+Proteção de dados: garantir que as informações pessoais e bancárias estejam protegidas.
+Prevenção de ataques: identificar possíveis ameaças e evitar invasões ao sistema.
+Controle de acesso: garantir que somente pessoas autorizadas possam acessar as informações.
+Monitoramento: acompanhar atividades suspeitas e possíveis tentativas de fraude.
+Privacidade: desenvolver medidas para proteger os dados dos idosos.
+
+3. Importância da Cibersegurança para o projeto
+A Cibersegurança é essencial para o Escudo 60+, pois ajuda a proteger os usuários contra golpes financeiros, vazamento de informações e invasões.
 Feedback dos colegas: Reconhecimento pela rigidez técnica na construção do controle ético, com sugestão de otimizar o tempo de resposta nas entregas. Ass:Cauê, Thiago e Giovana
