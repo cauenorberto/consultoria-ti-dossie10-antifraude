@@ -29,3 +29,4 @@ Meu objetivo é aprofundar meus conhecimentos em Engenharia de Dados, principalm
 **Resultado esperado:** desenvolver conhecimentos práticos que permitam estruturar e organizar fluxos de dados com mais eficiência, ampliando minha preparação profissional para atuar na área de Engenharia de Dados.
 
 ### 5. Feedback dos colegas
+apresentou bem sua função no projeto, mostrando a importância da Engenharia de Dados para organizar e proteger as informações. Achei interessante a ideia de utilizar o Kafka para trabalhar com dados em tempo real. Como melhoria, poderia aprofundar um pouco mais os conhecimentos em armazenamento e segurança de dados. No geral, está fazendo um bom trabalho e contribuindo para o desenvolvimento do projeto. ass:Luan 
