@@ -54,7 +54,7 @@ Quando o sistema identifica uma operação atípica (ex: Pix de alto valor para 
   * *Camada de Proteção (Cibersegurança):* Bloqueio preventivo de espelhamento de tela (*screen mirroring*) e detecção de aplicativos maliciosos de acesso remoto instalados no dispositivo móvel.
 
 
-### Detalhamento Técnico dividido por Área, destacando os pontos de cada um.
+### Detalhamento Técnico dividido por Área, Destacando as Habilidades e Competências de cada Integrante.
 
 | Área de Atuação | Responsável | Componentes Tecnológicos / Stack | Papel Crítico no Projeto |
 | :--- | :--- | :--- | :--- |
