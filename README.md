@@ -107,8 +107,12 @@ Quando o sistema identifica uma operação atípica (ex: Pix de alto valor para 
 ## 6. Sustentabilidade
 
 * **TI Verde:** Otimização dos algoritmos de Machine Learning para rodar em instâncias de nuvem energeticamente eficientes, reduzindo o consumo desnecessário de processamento (*compute*) e pegada de carbono computacional.
+Melhora e deixando de forma mais leve o consumo energético dos servidores através do uso de instâncias elásticas que entram em modo de baixo consumo (idle scaling) durante os horários de menor movimento noturno.
+Arquitetura de microsserviços leves que evitam o desperdício de ciclos de CPU em modelos preditivos pesados, priorizando inferências locais eficientes quando suportadas pelo dispositivo do usuário.
 
 * **Modelo financeiro:** Manutenção sustentada por meio de parcerias com as próprias instituições financeiras (que reduzem drasticamente seus prejuízos com estornos de fraudes) e fundos de responsabilidade social corporativa após o primeiro ano de implantação.
+Ano 1: Financiamento absorvido pelo próprio orçamento de inovação e prevenção a fraudes das instituições financeiras parceiras, visto que a redução de prejuízos com estornos de golpes supera o custo de manutenção da plataforma.
+Anos seguintes (Sustentabilidade a longo prazo): Transição para um modelo cooperativo sustentado por consórcios do setor bancário e fundos de impacto social voltados para a longevidade e cidadania financeira.
 
 ## 7. Impacto esperado
 
@@ -152,14 +156,13 @@ Quando o sistema identifica uma operação atípica (ex: Pix de alto valor para 
 
 * **Plano de desenvolvimento (SMART):** Dominar ferramentas avançadas de streaming de dados (como Apache Kafka) e governança em nuvem nos próximos 12 meses.
 
-* **Feedback dos colegas:** Doutrina exemplar na organização geral do repositório e limpeza do código, com apontamento para diversificar a participação nas discussões conceituais com as outras áreas.
+* **Feedback dos colegas:** exemplar na organização geral do repositório e limpeza do código, com apontamento para diversificar a participação nas discussões conceituais com as outras áreas.
 
 * **Feedback Conjunto do Grupo:** A dinâmica colaborativa fluiu de forma equilibrada, unindo expertises técnicas complementares em prol de um problema social crítico, com divisão justa e transparente de tarefas atestada pelo histórico do GitHub.
 
-## 10. Referências
-
-* FEBRABAN. *Pesquisa Radar Febraban: Panorama de fraudes e percepção de segurança digital*. São Paulo, 2025. Disponível em fontes institucionais do setor bancário.
-
-* UNIFESP. *Fraudes digitais contra pessoas idosas crescem em levantamento recente de registros policiais*. São Paulo: Assessoria de Imprensa DCI Unifesp, 2026.
-
+## 10. Referências e Fontes de Pesquisa
+* [BANCO CENTRAL DO BRASIL. Relatório de Cidadania Financeira.](https://www.bcb.gov.br/content/cidadaniafinanceira/documentos_cidadania/RIF/relatorio_de_cidadania_financeira_2025.pdf) Brasília, 2025.
+* [FEBRABAN TECH. Radar Febraban: Panorama de tentativas de golpes e engenharia social no Brasil.](https://febrabantech.febraban.org.br/conteudoPublicado/79dbebb1-db67-467d-b21b-42afb44807cf) São Paulo, 2025.
+* [FEBRABAN NEWS. Os 10 golpes mais comuns aplicados contra idosos e diretrizes de prevenção.](https://portal.febraban.org.br/DetalheNews/16/pt-br) São Paulo, 2024.
+* LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS (LGPD). Lei nº 13.709/2018. Diretrizes aplicadas à segurança e proteção de dados de públicos vulneráveis.
 * AGÊNCIA BRASIL. *Engenharia social responde por parcela significativa das fraudes financeiras no Brasil*. Brasília: EBC, 2026.
