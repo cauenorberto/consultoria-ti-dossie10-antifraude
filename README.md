@@ -28,6 +28,10 @@
 ## 2. Análise do Problema
 
 * **Quem é afetado, onde e quanto:** Segundo dados recentes da Unifesp e levantamentos de órgãos de proteção ao consumidor, as fraudes digitais contra pessoas idosas dispararam no Brasil, com vítimas com idade média superior a 67 anos. A Febraban indicam que as tentativas de golpes atingem fortemente a população sênior, comprometendo aposentadorias e reservas de uma vida inteira.
+* 
+*  O público-alvo primário compreende aposentados, pensionistas e idosos com 65 anos ou mais, parcela da população que concentra grande parte das economias de uma vida e que, historicamente, possui menor familiaridade com os riscos inerentes ao ecossistema de pagamentos instantâneos. O problema é nacional, mas com forte incidência nos grandes centros urbanos, onde o volume de transações digitais é massivo.
+*  
+Levantamentos recentes do setor bancário indicam que as tentativas de golpes digitais atingem fortemente a população sênior, com destaque para índices que colocam os idosos entre os grupos mais vulneráveis às fraudes por engenharia social ([Radar Febraban](https://febrabantech.febraban.org.br/conteudoPublicado/79dbebb1-db67-467d-b21b-42afb44807cf)).
 
 * **Causas (com destaque tecnológico):** O principal vetor não é a quebra de criptografia dos bancos, mas sim a **engenharia social** (que responde por cerca de 40% das fraudes financeiras no país). Os criminosos manipulam psicologicamente o idoso — utilizando falsas centrais de atendimento, urgência inventada ou engenharia social por telefone/WhatsApp —, induzindo-o a realizar transações voluntárias ou a entregar senhas e códigos de segurança.
 
