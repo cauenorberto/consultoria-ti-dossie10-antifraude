@@ -28,17 +28,22 @@
 ## 2. Análise do Problema
 
 * **Quem é afetado, onde e quanto:** Segundo dados recentes da Unifesp e levantamentos de órgãos de proteção ao consumidor, as fraudes digitais contra pessoas idosas dispararam no Brasil, com vítimas com idade média superior a 67 anos. A Febraban indicam que as tentativas de golpes atingem fortemente a população sênior, comprometendo aposentadorias e reservas de uma vida inteira.
-*  O público-alvo primário compreende aposentados, pensionistas e idosos com 65 anos ou mais, parcela da população que concentra grande parte das economias de uma vida e que, historicamente, possui menor familiaridade com os riscos inerentes ao ecossistema de pagamentos instantâneos. O problema é nacional, mas com forte incidência nos grandes centros urbanos, onde o volume de transações digitais é massivo.
-*  
+O público-alvo primário compreende aposentados, pensionistas e idosos com 65 anos ou mais, parcela da população que concentra grande parte das economias de uma vida e que, historicamente, possui menor familiaridade com os riscos inerentes ao ecossistema de pagamentos instantâneos. O problema é nacional, mas com forte incidência nos grandes centros urbanos, onde o volume de transações digitais é massivo.
 Levantamentos recentes do setor bancário indicam que as tentativas de golpes digitais atingem fortemente a população sênior, com destaque para índices que colocam os idosos entre os grupos mais vulneráveis às fraudes por engenharia social ([Radar Febraban](https://febrabantech.febraban.org.br/conteudoPublicado/79dbebb1-db67-467d-b21b-42afb44807cf)).
 
 * **Causas (com destaque tecnológico):** O principal vetor não é a quebra de criptografia dos bancos, mas sim a **engenharia social** (que responde por cerca de 40% das fraudes financeiras no país). Os criminosos manipulam psicologicamente o idoso — utilizando falsas centrais de atendimento, urgência inventada ou engenharia social por telefone/WhatsApp —, induzindo-o a realizar transações voluntárias ou a entregar senhas e códigos de segurança.
+Enquanto o fator socioeconômico envolve a vulnerabilidade emocional e a menor literacia digital, as causas que competem diretamente à tecnologia residem em dois pilares:
+1. **Falta de barreiras comportamentais contextuais:** Os aplicativos bancários tradicionais validam a transação com base apenas em senhas ou biometria estática do próprio usuário, sem avaliar se o titular está sob coação ou sendo manipulado naquele exato instante.
+2. **Complexidade excessiva e opacidade das interfaces:** Menus cheios de atalhos e alertas genéricos em texto miúdo acabam por confundir o idoso, que frequentemente clica em links maliciosos ou aceita o espelhamento da tela do smartphone acreditando falar com o gerente do banco.
 
 * **O que já existe e por que não basta:** Atualmente, os bancos utilizam alertas genéricos por SMS ou notificações push padrão. No entanto, o público idoso muitas vezes não compreende o aviso, ignora o texto técnico ou é coagido pelo golpista a ignorar o alerta, tornando ineficientes as barreiras puramente textuais e passivas.
 
 ## 3. Proposta tecnológica
 
 * **Jornada do usuário:** O *Escudo 60+* atua como um modo assistido no aplicativo do banco. Ao detectar uma transação atípica para uma chave Pix desconhecida ou sob coação simulada, o sistema ativa uma interface simplificada de alto contraste e aciona automaticamente uma **"Rede de Apoio de Confiança"** (um familiar ou cuidador pré-cadastrado) para validar a operação em conjunto com o idoso, sem jargões complexos.
+
+### Visão Geral da Arquitetura e Jornada do Usuário (Modo Assistido 60+) 
+Quando o sistema identifica uma operação atípica (ex: Pix de alto valor para uma chave recém-adicionada em horário incomum), o aplicativo aciona o **Modo Assistido 60+**. A interface se transforma: o fundo escurece levemente, as fontes aumentam de forma destacada, um áudio explicativo integrado narra os detalhes da transação e uma pausa de segurança de 30 minutos é ativada. Simultaneamente, uma notificação push enriquecida é disparada para um familiar ou cuidador pré-cadastrado ("Guardião"), permitindo uma validação cruzada antes da liberação dos fundos.
 
 * **Arquitetura da Solução:**
 
@@ -48,6 +53,15 @@ Levantamentos recentes do setor bancário indicam que as tentativas de golpes di
 
   * *Camada de Proteção (Cibersegurança):* Bloqueio preventivo de espelhamento de tela (*screen mirroring*) e detecção de aplicativos maliciosos de acesso remoto instalados no dispositivo móvel.
 
+
+### Detalhamento Técnico dividido por Área, destacando os pontos de cada um.
+
+| Área de Atuação | Responsável | Componentes Tecnológicos / Stack | Papel Crítico no Projeto |
+| :--- | :--- | :--- | :--- |
+| **Engenharia de Dados** | Thiago Nielsen | Apache Kafka, Apache Spark Streaming, Data Lake AWS (S3 / Delta Lake) | Ingestão em tempo real de metadados transacionais e construção de streams de eventos de navegação para processamento sem latência perceptível. |
+| **Ciência de Dados** | Cauê Norberto | Python, Scikit-Learn, LightGBM, Modelos de *Behavioral Analytics* | Desenvolvimento do motor preditivo para identificar desvios sutis no padrão de digitação, velocidade de navegação e comportamento atípico. |
+| **Cibersegurança** | Luan Henrique | OWASP Mobile Top 10, SDKs de Detecção de *Screen Mirroring*, AES-256 | Blindagem do dispositivo contra ferramentas de acesso remoto não autorizado, detecção de espelhamento de tela malicioso e criptografia ponta a ponta. |
+| **Gestão e Cloud** | Giovana Moura | AWS Elastic Container Service (ECS), Terraform, Ferramentas de FinOps | Orquestração da infraestrutura elástica em nuvem, dimensionamento de custos operacionais e governança de conformidade com TI verde. |
 * **Papel das áreas:** Engenharia e Ciência de Dados estruturam o fluxo preditivo; Cibersegurança blinda o dispositivo contra malwares; Gestão e Cloud garantem a escalabilidade segura da infraestrutura em nuvem e a conformidade regulatória.
 
 * **O que a tecnologia não resolve:** A tecnologia mitiga a execução do golpe digital, mas não substitui totalmente a educação financeira e o suporte familiar contínuo contra pressões psicológicas presenciais ou telefônicas externas.
