@@ -33,8 +33,8 @@ Levantamentos recentes do setor bancário indicam que as tentativas de golpes di
 
 * **Causas (com destaque tecnológico):** O principal vetor não é a quebra de criptografia dos bancos, mas sim a **engenharia social** (que responde por cerca de 40% das fraudes financeiras no país). Os criminosos manipulam psicologicamente o idoso — utilizando falsas centrais de atendimento, urgência inventada ou engenharia social por telefone/WhatsApp —, induzindo-o a realizar transações voluntárias ou a entregar senhas e códigos de segurança.
 Enquanto o fator socioeconômico envolve a vulnerabilidade emocional e a menor literacia digital, as causas que competem diretamente à tecnologia residem em dois pilares:
-1. **Falta de barreiras comportamentais contextuais:** Os aplicativos bancários tradicionais validam a transação com base apenas em senhas ou biometria estática do próprio usuário, sem avaliar se o titular está sob coação ou sendo manipulado naquele exato instante.
-2. **Complexidade excessiva e opacidade das interfaces:** Menus cheios de atalhos e alertas genéricos em texto miúdo acabam por confundir o idoso, que frequentemente clica em links maliciosos ou aceita o espelhamento da tela do smartphone acreditando falar com o gerente do banco.
+* **Falta de barreiras comportamentais contextuais:** Os aplicativos bancários tradicionais validam a transação com base apenas em senhas ou biometria estática do próprio usuário, sem avaliar se o titular está sob coação ou sendo manipulado naquele exato instante.
+* **Complexidade excessiva e opacidade das interfaces:** Menus cheios de atalhos e alertas genéricos em texto miúdo acabam por confundir o idoso, que frequentemente clica em links maliciosos ou aceita o espelhamento da tela do smartphone acreditando falar com o gerente do banco.
 
 * **O que já existe e por que não basta:** Atualmente, os bancos utilizam alertas genéricos por SMS ou notificações push padrão. No entanto, o público idoso muitas vezes não compreende o aviso, ignora o texto técnico ou é coagido pelo golpista a ignorar o alerta, tornando ineficientes as barreiras puramente textuais e passivas.
 
