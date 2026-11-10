@@ -66,19 +66,16 @@ Quando o sistema identifica uma operação atípica (ex: Pix de alto valor para 
 
 * **O que a tecnologia não resolve:** A tecnologia mitiga a execução do golpe digital, mas não substitui totalmente a educação financeira e o suporte familiar contínuo contra pressões psicológicas presenciais ou telefônicas externas.
 
-## 4. Análise ética
+## 4. Análise Ética
+### 4.1 Matriz de Riscos
 
-* **Matriz de riscos:**
-
-  1. *Falsos Positivos:* Bloqueio indevido de transações legítimas do idoso. *(Impacto: Alto | Controle: Canal humanizado imediato).*
-
-  2. *Exclusão de Autonomia:* O idoso sentir-se infantilizado pelo monitoramento. *(Impacto: Médio | Controle: Transparência clara e consentimento do familiar de confiança).*
-
-  3. *Vazamento de Dados Comportamentais Sensíveis:* Exposição de rotinas financeiras. *(Impacto: Alto | Controle: Criptografia ponta a ponta e anonimização).*
-
-  4. *Indisponibilidade do Sistema de Apoio:* Falha ao contatar o familiar no momento do alerta. *(Impacto: Médio | Controle: Fluxo de contingência com retenção temporária da transferência).*
-
-  5. *Uso Indevido por Terceiros de Má Fé:* Um familiar mal-intencionado controlar as finanças do idoso. *(Impacto: Alto | Controle: Termo de consentimento revogável e auditoria de acessos).*
+| Risco Mapeado | Categoria | Impacto | Probabilidade | Medida de Mitigação e Controle |
+| :--- | :--- | :--- | :--- | :--- |
+| **1. Falsos Positivos** | Operacional | Alto | Média | Criação de um canal de contestação humanizado e rápido via ligação prioritária direto na tela de bloqueio. |
+| **2. Vazamento de Dados** | Privacidade | Alto | Baixa | Anonimização de dados em trânsito e armazenamento com criptografia AES-256 rigorosa. |
+| **3. Exclusão Digital** | Acessibilidade | Médio | Média | Possibilidade de validação alternativa por biometria reforçada ou suporte assistido em agência física. |
+| **4. Fadiga de Alertas** | Experiência | Baixo | Média | Calibragem inteligente de limiares de risco para disparar avisos apenas em desvios comportamentais críticos. |
+| **5. Uso Indevido de Privilégios** | Governança | Alto | Baixa | Trilha de auditoria imutável (*Access Logs*) para qualquer consulta a dados cadastrais de clientes. |
 
 * **Decisão de implantação:** Implantar com controles restritos. A solução é viável e socialmente urgente, desde que sejam aplicadas travas rígidas de privacidade e validação humana para evitar constrangimentos ao usuário idoso.
 
